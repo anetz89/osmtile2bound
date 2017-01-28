@@ -4,7 +4,11 @@ This is done by following the suggestions in the
 [OSM Wiki](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames).
 
 ## Installation
+Use standard npm installation
+
+```shell
 npm install --save osmtile2bound
+```
 
 ## Usage
 Pass the three necessary values (x, y and z) to the function.
