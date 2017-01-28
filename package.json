@@ -1,0 +1,27 @@
+{
+  "name": "osmtile2bound",
+  "version": "0.1.0",
+  "description": "convert osm tile values to wgs84 bounds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anetz89/osmtile2bound.git"
+  },
+  "keywords": [
+    "osm",
+    "tile",
+    "wgs84",
+    "bounds",
+    "convert",
+    "url"
+  ],
+  "author": "anetz89",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anetz89/osmtile2bound/issues"
+  },
+  "homepage": "https://github.com/anetz89/osmtile2bound#readme"
+}
