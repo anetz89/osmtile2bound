@@ -10,7 +10,19 @@
         return (180 / Math.PI * Math.atan(0.5 * (Math.exp(n) - Math.exp(-n))));
     }
 
+    function isTileObject(obj) {
+        return obj.hasOwnProperty('valid') && obj.valid && 
+            obj.hasOwnProperty('x') && 
+            obj.hasOwnProperty('y') && 
+            obj.hasOwnProperty('z');
+    }
+
     module.exports = function(x, y, z) {
+        if (isTileObject(x)) {
+            y = x.y;
+            z = x.z;
+            x = x.x;
+        }
         x = parseInt(x, 10);
         y = parseInt(y, 10);
         z = parseInt(z, 10);
