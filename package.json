@@ -4,7 +4,7 @@
   "description": "convert osm tile values to wgs84 bounds",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.spec.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/anetz89/osmtile2bound/issues"
   },
-  "homepage": "https://github.com/anetz89/osmtile2bound#readme"
+  "homepage": "https://github.com/anetz89/osmtile2bound#readme",
+  "dependencies": {
+    "geobound-object": "^0.1.0"
+  }
 }
